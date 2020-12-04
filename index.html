@@ -27,8 +27,8 @@
         })("https://s.pinimg.com/ct/core.js");
         pintrk("load", tagId, { em: testEmail });
         pintrk('track', 'signup', { lead_type: 'New release promotion' });
-        pintrk('track', 'addtocart', { order_quantity: 1, value: 100 } );
-        pintrk('track', 'checkout', { order_quantity: 1, value: 100 } );
+        pintrk('track', 'addtocart', { order_quantity: 1, value: 100, currency: 'USD' } );
+        pintrk('track', 'checkout', { order_quantity: 1, value: 100, currency: 'USD', order_id: '1' } );
         pintrk("page");
       </script>
       <!-- <noscript>
